@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>RPS</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="display">ROCK PAPER SCISSORS</header>
+
+      <div class="game-container">
+        <div class="score-board">
+          <div id="user-label" class="badge">USER</div>
+          <div id="cpu-label" class="badge">CPU</div>
+          <span id="user-score">0</span>
+          <span id="cpu-score">0</span>
+        </div>
+        <div class="result-container">
+          <p>Start the game!</p>
+        </div>
+        <div class="choices-container">
+          <h2>Make Your Move</h2>
+          <div class="choices">
+            <div class="choice" id="r">
+              <img src="images/rock.png" alt="rock" class="rock-img" />
+            </div>
+            <div class="choice" id="p">
+              <img src="images/paper.png" alt="paper" class="paper-img" />
+            </div>
+            <div class="choice" id="s">
+              <img
+                src="images/scissors.png"
+                alt="scissors"
+                class="scissors-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
